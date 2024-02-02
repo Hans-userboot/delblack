@@ -10,16 +10,16 @@ load_dotenv("config.env")
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
-API_ID = int(os.environ.get("API_ID", "25948358"))
-API_HASH = os.environ.get("API_HASH", "b89b0b5b357d21d857bf3980476d5351")
+API_ID = int(os.environ.get("API_ID", "24541172"))
+API_HASH = os.environ.get("API_HASH", "55973f050a75d1bd7597a9f9f109dc9f")
 
-CHANNEL_DB = int(os.environ.get("CHANNEL_DB", "-1002018364831"))
-MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://apingweh2:hanzubogor12@cluster0.heipkjm.mongodb.net/?retryWrites=true&w=majority")
+CHANNEL_DB = int(os.environ.get("CHANNEL_DB", "-1001848838632"))
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://delin:memek@cluster0.67p7hd4.mongodb.net/?retryWrites=true&w=majority")
 
 RESTRICT = strtobool(os.environ.get("RESTRICT", "True"))
 
-FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1002109628821"))
-FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "-1002105042488"))
+FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "0"))
+FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "0"))
 FORCE_SUB_3 = int(os.environ.get("FORCE_SUB_3", "0"))
 FORCE_SUB_4 = int(os.environ.get("FORCE_SUB_4", "0"))
 
